@@ -1,0 +1,120 @@
+#VRML V2.0 utf8
+
+# VRML 97 (VRML2) file made by Mineways version 11.06, http://mineways.com
+# World: New World
+# Terrain file name: C:\Users\Nattaphat.S\Downloads\mineways\mineways\terrainExt.png
+# Color scheme: Standard
+# Wed Feb 28 22:12:57 2024
+
+# Selection location min to max: 136, 82, -136 to 136, 319, -136
+#   Non-empty selection location min to max: 136, 82, -136 to 136, 82, -136
+
+# Set 3D print type: VRML 2.0
+
+# Cost estimate for this model:
+#   if made using the white, strong & flexible material: $ 1.50
+#   if made using the full color sandstone material:     $ 3.00 *** WARNING, thin wall ***
+# For white & flexible printer, minimum wall is 0.7 mm, maximum size is 65 x 55 x 35 cm
+# Units for the model vertex data itself: millimeters
+
+# world dimensions: 0.07 x 0.07 x 0.07 cm
+#   in inches: 0.03 x 0.03 x 0.03 inches
+# each block is 0.70 mm on a side, and has a volume of 0.343 mm^3
+# sum of dimensions: 2.1 mm
+# volume is 0.000343 cm^3
+# surface area is 0.0294 cm^2
+# block density: 100% of volume
+
+# 8 vertices, 6 faces (12 triangles), 1 blocks
+# block dimensions: X=1 by Y=1 (height) by Z=1 blocks
+# Elevation shading: no
+# Lighting: no
+# Transparent water: no
+# Map grid: no
+# File type: Export no materials
+# Texture output RGB: YES
+# Texture output A: no
+# Texture output RGBA: no
+# Export lesser blocks: no
+# Center model: YES
+# Use biomes: no
+# Rotate model 0.000000 degrees
+# Make Z the up direction instead of Y: no
+# Scale model by making each block 0.7 mm high
+# Data operation options:
+#   Fill air bubbles: YES; Seal off entrances: no; Fill in isolated tunnels in base of model: no
+#   Connect parts sharing an edge: YES; Connect corner tips: YES; Weld all shared edges: no
+#   Delete floating objects: trees and parts smaller than 16 blocks: YES
+#   Hollow out bottom of model, making the walls 0.7 mm thick: YES; Superhollow: YES
+# Melt snow blocks: no
+#   Debug: show separate parts as colors: no
+#   Debug: show weld blocks in bright colors: no
+
+# Cleanup processing summary:
+#   Solid parts: 1
+#   Air bubbles found and filled (with glass): 0
+#   Total solid parts merged: 0
+#   Number of edge passes made: 1
+#     Edges found to fix: 0
+#     Weld blocks added: 0
+#     Tip blocks added: 0
+#   Floating parts removed: 0
+#     In these floaters, total blocks removed: 0
+#   Blocks removed by hollowing: 0
+#   Blocks removed by further super-hollowing (i.e. not just vertical hollowing): 0
+
+# Full world path: C:\Users\Nattaphat.S\AppData\Roaming\.minecraft\saves\New World
+# Full terrainExt.png path: C:\Users\Nattaphat.S\Downloads\mineways\mineways\terrainExt.png
+# Full current path: C:\Users\Nattaphat.S\Downloads\mineways\mineways
+
+NavigationInfo {
+  type [ "EXAMINE", "ANY" ]
+}
+Transform {
+  scale 1 1 1
+  translation 0 0 0
+  children
+  [
+    Shape
+    {
+      geometry DEF Neutral_White_Obj IndexedFaceSet
+      {
+        creaseAngle .5
+        solid TRUE
+        coord DEF coord_Craft Coordinate
+        {
+          point
+          [
+            0 0 0,
+            0 0 0.7,
+            0 0.7 0.7,
+            0 0.7 0,
+            0.7 0 0.7,
+            0.7 0 0,
+            0.7 0.7 0,
+            0.7 0.7 0.7
+          ]
+        }
+        coordIndex
+        [
+          1,2,3,0,-1
+          1,0,5,4,-1
+          0,3,6,5,-1
+          4,5,6,7,-1
+          2,7,6,3,-1
+          1,4,7,2,-1
+        ]
+      }
+      appearance Appearance
+      {
+        material DEF Neutral_White Material
+        {
+          ambientIntensity 0.2
+          diffuseColor 0.9 0.9 0.9
+          specularColor 0.1 0.1 0.1
+          shininess .5
+        }
+      }
+    }
+  ]
+}

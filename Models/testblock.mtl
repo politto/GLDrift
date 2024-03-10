@@ -1,0 +1,12 @@
+Wavefront OBJ material file
+# Contains 1 materials
+
+newmtl Dirt_Path
+Ns 0
+Ka 0.118431 0.0988235 0.0564706
+Kd 0.592157 0.494118 0.282353
+Ks 0 0 0
+illum 2
+d 1
+Tr 0
+
